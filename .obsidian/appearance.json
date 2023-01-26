@@ -1,0 +1,11 @@
+{
+  "cssTheme": "80s Neon",
+  "accentColor": "",
+  "textFontFamily": "Ubuntu",
+  "monospaceFontFamily": "FiraCode NFM",
+  "interfaceFontFamily": "",
+  "translucency": false,
+  "enabledCssSnippets": [
+    "mermaid"
+  ]
+}

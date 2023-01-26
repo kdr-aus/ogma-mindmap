@@ -1,0 +1,128 @@
+{
+  "main": {
+    "id": "9c011eb93b4632a7",
+    "type": "split",
+    "children": [
+      {
+        "id": "f723298905a505b2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8561fae32323c496",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Partitions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6b7123d37d29337e",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "7dc7c629aa4a0153",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "a362fa8a8e3c1e67",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "886722cc3ddccef6",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "33011549496a1fa0",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "ec8c2f08f2be6a32",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "6cac8ee058ee4db9",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Partitions.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "396576e68786fc9e",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Partitions.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "c8662dac689d8727",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Partitions.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "8561fae32323c496",
+  "lastOpenFiles": [
+    "Contributing.md"
+  ]
+}
