@@ -229,3 +229,40 @@ trait DefItems {
 
 - The impls wrapper might need to use a key: `(&Tag, &Type)`
 - The iterator return type would need to be associated.
+
+---
+
+## Clean Up Items
+
+- [ ] Definition error messages failing to find types/impls can be improved with with the fuzzy finder, suggesting close matches
+
+---
+
+## `Type` equality
+
+Equality (and subsequent operations) on `Type` were done on a _name_ basis.
+Unfortunately this does not work well **pathed** types which might share names.
+The partition system correctly (well uh,) partitions these types, but various system already used `Type` equality, notably the type graph.
+
+Initially the thought was to make equality a reference check, since type defs should really only exist once per `Definition`. However this had issues with the `static ORD` being initialised multiple times.
+
+### Options
+
+**Remove static primitive type defs**
+- All references would need to come from `Definitions`
+- `std::cmp::Ordering` would not be able to impl `AsType`
+- This makes a bit of sense to avoid a static type reference in code
+	- makes the code a little less brittle
+
+> [!success] This one
+> This is likely the best interim solution, since [[Types as Lightweight Ids]] will not use a static system.
+
+**Types carry more information for equality checking**
+- Could carry the full path name for qualification
+- Could carry the `TypeNode` or parent `BoundaryNode`
+- Larger structure to carry?
+
+**Types become lightweight pointers**
+- Could provide deterministic `const` for primitives
+- Fast equality
+- maybe an improvement for later? [[Types as Lightweight Ids]]

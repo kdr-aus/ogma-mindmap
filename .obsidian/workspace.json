@@ -18,6 +18,18 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "e12c0cb802be07b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Refactors/Types as Lightweight Ids.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ]
       }
@@ -69,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 384.5,
-    "collapsed": true
+    "width": 384.5
   },
   "right": {
     "id": "369cc6cd7209e4e9",
@@ -146,7 +157,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "d67cc00817b398f5",
@@ -204,15 +215,15 @@
   },
   "active": "f3ed30de4bb4b216",
   "lastOpenFiles": [
-    "half-baked.md",
-    "Partitions.md",
-    "Contributing.md",
     "ROADMAP.md",
-    "README.md",
+    "Refactors/Types as Lightweight Ids.md",
+    "Partitions.md",
     "Usage Endpoints.md",
+    "README.md",
+    "Contributing.md",
+    "half-baked.md",
     "Type Inference.md",
     "Untitled.canvas",
-    "Preprocessors/Solids.md",
-    "Octree.md"
+    "Preprocessors/Solids.md"
   ]
 }
